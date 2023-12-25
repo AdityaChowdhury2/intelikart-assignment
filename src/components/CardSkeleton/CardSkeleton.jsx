@@ -8,6 +8,7 @@ import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 
 const CardSkeleton = () => {
+	console.log('inskeleton');
 	return (
 		<Card className="">
 			<CardHeader shadow={false} floated={false} className="h-96">
